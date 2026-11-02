@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OG Buda × Анар — Каталог вещей 2025–2026</title>
+<link rel="preconnect" href="https://api.fontshare.com">
+<!-- ANALYTICS SLOT: вставьте сюда сниппет Яндекс.Метрики (metrika.yandex.ru) или Google Analytics -->
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#121210; --surface:#1b1b18; --surface2:#222220; --border:#33332e;
+  --text:#ecebe5; --muted:#a29f94; --faint:#6f6d64;
+  --accent:#c8ff2f; --accent-ink:#12120c;
+  --font-display:'Clash Display','Arial Black',sans-serif;
+  --font-body:'Satoshi','Helvetica Neue',sans-serif;
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --space-1:0.25rem; --space-2:0.5rem; --space-3:0.75rem; --space-4:1rem;
+  --space-6:1.5rem; --space-8:2rem; --space-10:2.5rem; --space-12:3rem; --space-16:4rem; --space-20:5rem;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:none;scroll-behavior:smooth;scroll-padding-top:var(--space-16)}
+body{min-height:100dvh;line-height:1.6;font-family:var(--font-body);font-size:var(--text-base);color:var(--text);background:var(--bg)}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+ul[role='list']{list-style:none}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:clamp(var(--space-4),4vw,var(--space-8))}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:50;background:color-mix(in oklab,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+nav .wrap{display:flex;align-items:center;gap:var(--space-6);overflow-x:auto;white-space:nowrap;padding-block:var(--space-3)}
+nav .logo{font-family:var(--font-display);font-weight:600;font-size:var(--text-sm);letter-spacing:.02em;flex-shrink:0}
+nav .logo b{color:var(--accent)}
+nav a.nl{font-size:var(--text-sm);color:var(--muted);flex-shrink:0}
+nav a.nl:hover{color:var(--text)}
+
+/* HERO */
+header{padding-block:clamp(var(--space-12),8vw,var(--space-20)) var(--space-8);border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+header::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 85% 0%,color-mix(in oklab,var(--accent) 10%,transparent),transparent 70%);pointer-events:none}
+.kicker{display:inline-flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);padding:var(--space-1) var(--space-3);border-radius:999px}
+h1{font-family:var(--font-display);font-weight:600;font-size:var(--text-2xl);line-height:1.05;margin-block:var(--space-4);text-wrap:balance;max-width:20ch}
+h1 em{font-style:normal;color:var(--accent)}
+.sub{color:var(--muted);max-width:64ch;font-size:var(--text-lg);font-weight:300}
+.hero-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-4);margin-top:var(--space-8)}
+.hero-grid figure{position:relative;border:1px solid var(--border);border-radius:0.5rem;overflow:hidden;background:var(--surface);aspect-ratio:16/10}
+.hero-grid img{width:100%;height:100%;object-fit:cover;filter:saturate(.92)}
+.hero-grid figcaption{position:absolute;left:var(--space-2);bottom:var(--space-2);font-size:var(--text-xs);background:rgba(10,10,8,.78);padding:var(--space-1) var(--space-2);border-radius:0.25rem;color:var(--text)}
+
+/* SECTIONS */
+section{padding-block:clamp(var(--space-10),6vw,var(--space-16))}
+.sec-head{display:flex;align-items:baseline;gap:var(--space-4);flex-wrap:wrap;margin-bottom:var(--space-2)}
+.sec-num{font-family:var(--font-display);font-size:var(--text-sm);color:var(--accent)}
+h2{font-family:var(--font-display);font-weight:600;font-size:var(--text-xl);line-height:1.1;text-wrap:balance}
+.sec-sub{color:var(--muted);max-width:70ch;margin-bottom:var(--space-6);font-weight:300}
+.sec-sub a{text-decoration:underline;text-decoration-color:color-mix(in oklab,var(--accent) 50%,transparent);text-underline-offset:3px}
+.sec-sub a:hover{color:var(--accent)}
+
+/* VIDEO STRIP */
+.video-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:var(--space-4);margin-block:var(--space-6)}
+.video-strip a{display:block;border:1px solid var(--border);border-radius:0.5rem;overflow:hidden;background:var(--surface);transition:border-color .18s}
+.video-strip a:hover{border-color:color-mix(in oklab,var(--accent) 45%,var(--border))}
+.video-strip img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.video-strip .vt{padding:var(--space-2) var(--space-3);font-size:var(--text-xs);color:var(--muted);display:flex;justify-content:space-between;gap:var(--space-2)}
+.video-strip .vt b{color:var(--text);font-weight:500;font-size:var(--text-sm);display:block}
+
+/* ITEM CARDS */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--space-4)}
+.card{border:1px solid var(--border);border-radius:0.5rem;overflow:hidden;background:var(--surface);display:flex;flex-direction:column;transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-2px);border-color:color-mix(in oklab,var(--accent) 40%,var(--border))}
+.card .ph{position:relative;background:var(--surface2)}
+.card .ph{aspect-ratio:4/3}
+.card .ph img{width:100%;height:100%;object-fit:cover}
+.card .ph .tag{position:absolute;top:var(--space-2);left:var(--space-2);font-size:var(--text-xs);background:rgba(10,10,8,.8);padding:var(--space-1) var(--space-2);border-radius:0.25rem;color:var(--muted)}
+.card .body{padding:var(--space-3) var(--space-4) var(--space-4);display:flex;flex-direction:column;gap:var(--space-2);flex:1}
+.card .cat{font-size:var(--text-xs);letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.card h3{font-family:var(--font-display);font-weight:500;font-size:var(--text-lg);line-height:1.2}
+.card .model{color:var(--muted);font-size:var(--text-sm)}
+.card .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);padding-top:var(--space-2)}
+.price{font-family:var(--font-display);font-weight:600;color:var(--accent);font-size:var(--text-base);white-space:nowrap}
+.buy{font-size:var(--text-xs);border:1px solid var(--border);padding:var(--space-1) var(--space-3);border-radius:999px;color:var(--muted);white-space:nowrap}
+.buy:hover{border-color:var(--accent);color:var(--accent)}
+.src{font-size:var(--text-xs);color:var(--faint)}
+.src a{text-decoration:underline;text-underline-offset:2px}
+
+/* TABLE */
+.tblwrap{overflow-x:auto;border:1px solid var(--border);border-radius:0.5rem;background:var(--surface);margin-top:var(--space-4)}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{padding:var(--space-2) var(--space-4);text-align:left;font-size:var(--text-sm);border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:var(--text-xs);letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:500;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td .pr{color:var(--accent);font-family:var(--font-display);font-weight:500;white-space:nowrap}
+td a{color:var(--text);text-decoration:underline;text-decoration-color:color-mix(in oklab,var(--accent) 50%,transparent);text-underline-offset:3px}
+td a:hover{color:var(--accent)}
+td.dim{color:var(--muted)}
+tr.total td{color:var(--text);font-weight:700;border-top:2px solid var(--accent);font-family:var(--font-display)}
+
+/* NOTES */
+.note{border:1px solid var(--border);border-left:3px solid var(--accent);background:var(--surface);padding:var(--space-4);border-radius:0 0.5rem 0.5rem 0;margin-top:var(--space-4);font-size:var(--text-sm);color:var(--muted)}
+.note b{color:var(--text)}
+
+/* LISTS */
+.brandlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:var(--space-3);margin-top:var(--space-4)}
+.brandlist li{border:1px solid var(--border);border-radius:0.5rem;background:var(--surface);padding:var(--space-3) var(--space-4);font-size:var(--text-sm)}
+.brandlist b{display:block;font-family:var(--font-display);font-weight:500;font-size:var(--text-base);color:var(--text)}
+.brandlist span{color:var(--muted)}
+
+/* FOOTER */
+footer{border-top:1px solid var(--border);padding-block:var(--space-8);color:var(--faint);font-size:var(--text-sm)}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr;gap:var(--space-8)}
+footer a{text-decoration:underline;text-underline-offset:2px}
+footer a:hover{color:var(--accent)}
+
+@media (max-width:760px){
+  .hero-grid{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <span class="logo"><b>OGB</b> × ANAR / FIT-CHECK</span>
+    <a class="nl" href="#slezzy">Слёзы Аиши</a>
+    <a class="nl" href="#strimy">Стримы Анара</a>
+    <a class="nl" href="#vihody">Выходы 2025–26</a>
+    <a class="nl" href="#anar">Гардероб Анара</a>
+    <a class="nl" href="#video">Все видео</a>
+    <a class="nl" href="#istochniki">Источники</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap">
+    <span class="kicker">FIT-CHECK • 2025–2026</span>
+    <h1>Каталог вещей <em>OG Buda</em> из клипов и стримов Анара</h1>
+    <p class="sub">Разобраны все публичные появления рэпера OG Buda (Григорий Ляхов) в стримах Анара Абдуллаева и его видеоклипах за 2025–2026 годы: точные бренды, модели, цены и ссылки, где купить каждую вещь. Плюс бонус — гардероб самого Анара.</p>
+    <div class="hero-grid">
+      <figure><img src="img/yt_slezy_aishi.jpg" alt="OG Buda в клипе Слёзы Аиши"><figcaption>Клип «Слёзы Аиши», янв. 2025</figcaption></figure>
+      <figure><img src="img/tg_2125.jpg" alt="OG Buda в Бангкоке"><figcaption>Стрим Анара, Бангкок, янв. 2026</figcaption></figure>
+      <figure><img src="img/yt_prednovogodny.jpg" alt="Анар и OG Buda на новогоднем стриме"><figcaption>Новогодний стрим, дек. 2025</figcaption></figure>
+    </div>
+  </div>
+</header>
+
+<!-- ======================= 01 ======================= -->
+<section id="slezzy">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2>Клип «Слёзы Аиши (First Day Out)»</h2></div>
+    <p class="sec-sub">Первый большой клип OG Buda после выхода на свободу (премьера — 12 января 2025). Полный разбор всех 18 луков — по данным канала <a href="https://t.me/mediawore/1673" target="_blank" rel="noopener">mediawore</a>; вещи перечислены в порядке появления в клипе. Стоимость образа — 394 724 ₽.</p>
+    <div class="video-strip">
+      <a href="https://www.youtube.com/watch?v=XFSfUCDJz68" target="_blank" rel="noopener">
+        <img src="img/yt_slezy_aishi.jpg" alt="Клип Слёзы Аиши">
+        <div class="vt"><b>OG Buda — «Слёзы Аиши»</b><span>YouTube</span></div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=tucQqlK3phs" target="_blank" rel="noopener">
+        <img src="img/yt_breakdown.jpg" alt="Разбор образов из клипа">
+        <div class="vt"><b>«Что носит OG Buda в клипе»</b><span>Разбор mediawore</span></div>
+      </a>
+    </div>
+    <div class="tblwrap">
+      <table>
+        <thead><tr><th>№</th><th>Тип</th><th>Бренд / модель</th><th>Цена*</th><th>Где купить</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Наушники</td><td><b>Apple</b> <span class="dim">(накладные, поверх капюшона)</span></td><td class="pr">46 200 ₽</td><td><a href="https://www.apple.com/ru/" target="_blank" rel="noopener">apple.com/ru</a></td></tr>
+          <tr><td>2</td><td>Очки</td><td><b>Gentle Monster</b></td><td class="pr">27 950 ₽</td><td><a href="https://www.gentlemonster.com/" target="_blank" rel="noopener">gentlemonster.com</a></td></tr>
+          <tr><td>3</td><td>Очки</td><td><b>Balenciaga</b></td><td class="pr">20 100 ₽</td><td><a href="https://www.balenciaga.com/" target="_blank" rel="noopener">balenciaga.com</a></td></tr>
+          <tr><td>4</td><td>Верхняя одежда</td><td><b>Supreme × MM6 Maison Margiela</b></td><td class="pr">78 750 ₽</td><td><a href="https://www.goat.com/en-de/apparel/supreme-x-mm6-maison-margiela-zip-up-hooded-sweatshirt-ash-grey-0052-1ss240106mm6zhs-ash" target="_blank" rel="noopener">GOAT (ресейл)</a></td></tr>
+          <tr><td>5</td><td>Пуховик</td><td><b>FRHT</b> Eternity Puffer (белый)</td><td class="pr">45 990 ₽</td><td class="dim">магазин не найден</td></tr>
+          <tr><td>6</td><td>Брюки</td><td><b>ZARA</b></td><td class="pr">7 100 ₽</td><td><a href="https://www.zara.com/ru/" target="_blank" rel="noopener">zara.com/ru</a></td></tr>
+          <tr><td>7</td><td>Обувь</td><td><b>Marcelo Miracles</b></td><td class="pr">13 000 ₽</td><td><a href="https://ru.marcelomiracles.com/" target="_blank" rel="noopener">ru.marcelomiracles.com</a></td></tr>
+          <tr><td>8</td><td>Кепка</td><td><b>OVO</b> (October's Very Own)</td><td class="pr">4 100 ₽</td><td><a href="https://ovo.com/" target="_blank" rel="noopener">ovo.com</a></td></tr>
+          <tr><td>9</td><td>Жилет</td><td><b>Adidas</b></td><td class="pr">33 600 ₽</td><td><a href="https://www.adidas.com/ru" target="_blank" rel="noopener">adidas.com/ru</a></td></tr>
+          <tr><td>10</td><td>Шорты</td><td><b>Stüssy</b> <span class="dim">(цена за 3 пары)</span></td><td class="pr">3 700 ₽</td><td><a href="https://www.stussy.com/" target="_blank" rel="noopener">stussy.com</a></td></tr>
+          <tr><td>11</td><td>Брюки</td><td><b>ZARA</b></td><td class="pr">7 000 ₽</td><td><a href="https://www.zara.com/ru/" target="_blank" rel="noopener">zara.com/ru</a></td></tr>
+          <tr><td>12</td><td>Кроссовки</td><td><b>Air Jordan 4</b></td><td class="pr">42 350 ₽</td><td><a href="https://www.nike.com/ru/" target="_blank" rel="noopener">nike.com/ru</a></td></tr>
+          <tr><td>13</td><td>Кепка</td><td><b>OZON</b> <span class="dim">(нон-бренд)</span></td><td class="pr">934 ₽</td><td><a href="https://www.ozon.ru/" target="_blank" rel="noopener">ozon.ru</a></td></tr>
+          <tr><td>14</td><td>Куртка</td><td><b>BAPE</b> (A Bathing Ape)</td><td class="pr">38 500 ₽</td><td><a href="https://bape.com/" target="_blank" rel="noopener">bape.com</a></td></tr>
+          <tr><td>15</td><td>Перчатки</td><td><b>Furygan</b> <span class="dim">(мотоперчатки)</span></td><td class="pr">2 100 ₽</td><td><a href="https://www.furygan.com/" target="_blank" rel="noopener">furygan.com</a></td></tr>
+          <tr><td>16</td><td>Футболка</td><td><b>Adidas</b></td><td class="pr">7 150 ₽</td><td><a href="https://www.adidas.com/ru" target="_blank" rel="noopener">adidas.com/ru</a></td></tr>
+          <tr><td>17</td><td>Брюки</td><td><b>ZARA</b></td><td class="pr">7 000 ₽</td><td><a href="https://www.zara.com/ru/" target="_blank" rel="noopener">zara.com/ru</a></td></tr>
+          <tr><td>18</td><td>Кроссовки</td><td><b>Nike</b></td><td class="pr">9 200 ₽</td><td><a href="https://www.nike.com/ru/" target="_blank" rel="noopener">nike.com/ru</a></td></tr>
+          <tr class="total"><td colspan="3">Итого за все образы клипа</td><td class="pr" colspan="2">394 724 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note"><b>* Как читать каталог:</b> цены зафиксированы каналом mediawore на январь 2025 года и могут отличаться от текущих. Для вещей из клипа магазин в оригинальном разборе не был указан — даны ссылки на официальные магазины брендов; коллаборации (Supreme × MM6, Air Jordan 4) доступны в основном на ресейл-платформах.</div>
+  </div>
+</section>
+
+<!-- ======================= 02 ======================= -->
+<section id="strimy">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2>Стримы Анара с OG Buda</h2></div>
+    <p class="sec-sub">Декабрь 2025 — январь 2026: новогодняя серия стримов, концерт в Краснодаре и большая поездка в Бангкок. На новогодних стримах (28–30 декабря) OG Buda и Анар нарядились в костюмы Деда Мороза и Снегурочки — это карнавальные костюмы без брендовой привязки. Брендовые вещи идентифицированы на тайских стримах — разбор <a href="https://t.me/mediawore/2125" target="_blank" rel="noopener">mediawore от 12 января 2026</a>, снятый именно во время совместных трансляций в Бангкоке.</p>
+    <div class="video-strip">
+      <a href="https://www.youtube.com/watch?v=InVk_aiBjTY" target="_blank" rel="noopener">
+        <img src="img/yt_thai_full.jpg" alt="Полный стрим в Таиланде">
+        <div class="vt"><b>Анар в Таиланде • OG Buda & Mayot</b><span>Полный стрим</span></div>
+      </a>
+      <a href="https://vkvideo.ru/video-148482079_456256759" target="_blank" rel="noopener">
+        <img src="img/yt_prednovogodny.jpg" alt="Новогодний стрим с OG Buda">
+        <div class="vt"><b>OG Buda дарит Анару подарки</b><span>Новый год 2026</span></div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=eBxx_TnrmR4" target="_blank" rel="noopener">
+        <img src="img/yt_koncert_ded.jpg" alt="Концерт OG Buda в Краснодаре">
+        <div class="vt"><b>Анар и Дед на концерте OG Buda</b><span>Краснодар, янв. 2026</span></div>
+      </a>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="ph"><img src="img/tg_2125.jpg" alt="OG Buda в Бангкоке"><span class="tag">Бангкок • 12.01.2026</span></div>
+        <div class="body">
+          <span class="cat">Аксессуары</span>
+          <h3>Han Kjøbenhavn</h3>
+          <p class="model">Солнцезащитные очки (оранжевая оправа, жёлтые линзы)</p>
+          <div class="foot"><span class="price">7 500 ₽</span><a class="buy" href="https://nuw.store/catalog/ochki/ochki_code/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2125" target="_blank" rel="noopener">mediawore/2125</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2125.jpg" alt="OG Buda в сером зип-худи Marcelo Miracles"><span class="tag">Бангкок • 12.01.2026</span></div>
+        <div class="body">
+          <span class="cat">Верхняя одежда</span>
+          <h3>Marcelo Miracles</h3>
+          <p class="model">Reversible Fur Zip Hoodie, серый — худи с меховым воротником «наизнанку»</p>
+          <div class="foot"><span class="price">19 000 ₽</span><a class="buy" href="https://ru.marcelomiracles.com/products/706158-reversible-fur-zip-hoodie-in-grey" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2125" target="_blank" rel="noopener">mediawore/2125</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2125.jpg" alt="OG Buda в футболке Buriram United"><span class="tag">Бангкок • 12.01.2026</span></div>
+        <div class="body">
+          <span class="cat">Футболка</span>
+          <h3>Buriram United</h3>
+          <p class="model">Розовая футболка тайского футбольного клуба с принтом слонов Chang</p>
+          <div class="foot"><span class="price">4 600 ₽</span><a class="buy" href="https://loveswarvs.click/product_details/82602968.html" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2125" target="_blank" rel="noopener">mediawore/2125</a></span>
+        </div>
+      </article>
+    </div>
+    <div class="note"><b>Клип «NaNaNa» (Aarne, Toxi$, OG Buda, 24.12.2025):</b> Анар снялся в камео, а OG Buda в кадре в камуфляжной панаме, футболке «SZN» и тёмных прямоугольных очках. Детального разбора этих вещей не публиковалось. <a href="https://www.youtube.com/watch?v=S42RgdVyBRM" target="_blank" rel="noopener">Смотреть клип</a> — также в куплете OG Buda есть упоминание Анара (<a href="https://the-flow.ru/videos/aarne-toxi-og-buda-nanana" target="_blank" rel="noopener">The Flow</a>).</div>
+  </div>
+</section>
+
+<!-- ======================= 03 ======================= -->
+<section id="vihody">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h2>Другие выходы OG Buda • 2025–2026</h2></div>
+    <p class="sec-sub">Публичные появления рэпера вне стримов Анара — для полноты каталога. Все разборы — канал <a href="https://t.me/mediawore" target="_blank" rel="noopener">mediawore</a> (бывш. streamersoutfit).</p>
+    <div class="cards">
+      <article class="card">
+        <div class="ph"><img src="img/tg_1659.jpg" alt="OG Buda в худи Nike ACG"><span class="tag">11.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Худи</span>
+          <h3>Nike ACG</h3>
+          <p class="model">Hoodie, Luminous Green / University Gold (светло-жёлтый)</p>
+          <div class="foot"><span class="price">10 580 ₽</span><a class="buy" href="https://en.afew-store.com/products/nike-m-nrg-acg-hoodie-luminous-green-university-gold" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1659" target="_blank" rel="noopener">mediawore/1659</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1659.jpg" alt="OG Buda с сумкой La Routine"><span class="tag">11.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Сумка</span>
+          <h3>La Routine</h3>
+          <p class="model">Поясная сумка (crossbody)</p>
+          <div class="foot"><span class="price">out of stock</span><span class="buy">Нет в наличии</span></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1659" target="_blank" rel="noopener">mediawore/1659</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1664.jpg" alt="OG Buda в парке Canada Goose"><span class="tag">14.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Зимняя куртка</span>
+          <h3>Canada Goose</h3>
+          <p class="model">Resolute Down Parka, чёрная — парка с меховым капюшоном</p>
+          <div class="foot"><span class="price">160 500 ₽</span><a class="buy" href="https://www.tsum.ru/product/5538341-pukhovaya-parka-resolute-canada-goose-chernyi/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1664" target="_blank" rel="noopener">mediawore/1664</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1690.jpg" alt="OG Buda в кепке Vetements"><span class="tag">29.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Кепка</span>
+          <h3>Vetements</h3>
+          <p class="model">Бейсболка (чёрная)</p>
+          <div class="foot"><span class="price">35 000 ₽</span><a class="buy" href="https://spin4spin.com/product/2000000337685" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1690" target="_blank" rel="noopener">mediawore/1690</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1690.jpg" alt="OG Buda в худи Supreme x MM6"><span class="tag">29.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Верхняя одежда</span>
+          <h3>Supreme × MM6 Maison Margiela</h3>
+          <p class="model">Zip-Up Hooded Sweatshirt, Ash Grey</p>
+          <div class="foot"><span class="price">75 350 ₽</span><a class="buy" href="https://www.goat.com/en-de/apparel/supreme-x-mm6-maison-margiela-zip-up-hooded-sweatshirt-ash-grey-0052-1ss240106mm6zhs-ash" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1690" target="_blank" rel="noopener">mediawore/1690</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1690.jpg" alt="OG Buda с сумкой Burberry"><span class="tag">29.01.2025</span></div>
+        <div class="body">
+          <span class="cat">Сумка</span>
+          <h3>Burberry</h3>
+          <p class="model">Сумка через плечо в фирменной клетке</p>
+          <div class="foot"><span class="price">59 800 ₽</span><a class="buy" href="https://t.me/soquemarket/75" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1690" target="_blank" rel="noopener">mediawore/1690</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1753.jpg" alt="OG Buda в пиджаке post post scriptum"><span class="tag">06.03.2025</span></div>
+        <div class="body">
+          <span class="cat">Пиджак</span>
+          <h3>post post scriptum (P.P.S.)</h3>
+          <p class="model">Двубортный пиджак фактурной вязки</p>
+          <div class="foot"><span class="price">10 950 ₽</span><a class="buy" href="https://www.lamoda.ru/p/mp002xm0bxql/clothes-pps-pidzhak/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1753" target="_blank" rel="noopener">mediawore/1753</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2254.jpg" alt="OG Buda на матче ЦСКА Зенит"><span class="tag">06.05.2026</span></div>
+        <div class="body">
+          <span class="cat">Куртка</span>
+          <h3>Quantity Limited</h3>
+          <p class="model">Appetite Ripstop Jacket, Black — камуфляжная куртка (матч ЦСКА — Зенит)</p>
+          <div class="foot"><span class="price">≈14 000 ₽</span><a class="buy" href="https://quantitylimited.ru/product/kurtka-appetite-ripstop-jacket-black" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2254" target="_blank" rel="noopener">mediawore/2254</a></span>
+        </div>
+      </article>
+    </div>
+    <div class="note"><b>Очки Chrome Hearts:</b> постоянный аксессуар OG Buda — модели <b>Vagillionaire II</b> (чёрный глянцевый ацетат с крестами и лилиями на дужках), <b>Slew</b> (прямоугольные, ацетат + титан) и <b>Splooge</b> (базовая модель для стритвир-образов) — <a href="https://chrome-heart.ru/news/ochki-chrome-hearts-v-tvorchestve-rossijskih-znamenitostej/" target="_blank" rel="noopener">chrome-heart.ru</a>. Бренд не продаёт онлайн — только бутики и ресейл (StockX, Grailed, 1stDibs).</div>
+    <div class="note"><b>Базовый гардероб:</b> по обзорам прессы, любимые повседневные бренды OG Buda — <b>Stone Island, C.P. Company и Burberry</b> (<a href="https://dzen.ru/list/beauty/og-buda-stil-odezhdy" target="_blank" rel="noopener">Дзен</a>); в отельных фото с командой замечены бежевый <b>Nike Tech Fleece</b>, кастомные Nike, ботинки в стиле <b>Rick Owens</b>, худи <b>Undercover</b>, <b>True Religion</b> и цепи <b>Chrome Hearts</b> (<a href="https://rutube.ru/video/e12f67fcd4ff90042d13adcb945c58d3/" target="_blank" rel="noopener">видео-разбор Birka</a>).</div>
+  </div>
+</section>
+
+<!-- ======================= 04 ======================= -->
+<section id="anar">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><h2>Бонус: гардероб Анара</h2></div>
+    <p class="sec-sub">Образы стримера Анара Абдуллаева за 2025–2026 — от футболки за 600 ₽ до Rolex за 1,75 млн ₽.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="ph"><img src="img/tg_1729.jpg" alt="Анар в футболке XONVIII"><span class="tag">19.02.2025</span></div>
+        <div class="body">
+          <span class="cat">Футболка</span>
+          <h3>XONVIII</h3>
+          <p class="model">Key T-Shirt, White</p>
+          <div class="foot"><span class="price">2 690 ₽</span><a class="buy" href="https://xonviii.com/tproduct/500105342-940871218482-key-t-shirt-white" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1729" target="_blank" rel="noopener">mediawore/1729</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1793.jpg" alt="Анар в пуховике Tommy Sinny"><span class="tag">23.03.2025</span></div>
+        <div class="body">
+          <span class="cat">Пуховик</span>
+          <h3>TOMMY SINNY</h3>
+          <p class="model">Дутый пуховик-градиент (чёрно-серый)</p>
+          <div class="foot"><span class="price">14 990 ₽</span><a class="buy" href="https://tommysinny.com/shadegray" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1793" target="_blank" rel="noopener">mediawore/1793</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1793.jpg" alt="Анар в джинсах Befree"><span class="tag">23.03.2025</span></div>
+        <div class="body">
+          <span class="cat">Джинсы</span>
+          <h3>Befree</h3>
+          <p class="model">Джинсы с высветленным принтом</p>
+          <div class="foot"><span class="price">3 299 ₽</span><a class="buy" href="https://befree.ru/muzhskaya/product/2413109014/107" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1793" target="_blank" rel="noopener">mediawore/1793</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_1793.jpg" alt="Анар в кроссовках Valentino"><span class="tag">23.03.2025</span></div>
+        <div class="body">
+          <span class="cat">Кроссовки</span>
+          <h3>Valentino</h3>
+          <p class="model">One Stud XL, комбинированные кеды (синие)</p>
+          <div class="foot"><span class="price">128 000 ₽</span><a class="buy" href="https://www.tsum.ru/product/6979163-kombinirovannye-kedy-one-stud-xl-valentino-sinii/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/1793" target="_blank" rel="noopener">mediawore/1793</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2094.jpg" alt="Анар в футболке BAPE"><span class="tag">30.11.2025</span></div>
+        <div class="body">
+          <span class="cat">Футболка</span>
+          <h3>BAPE</h3>
+          <p class="model">Футболка тай-дай красно-чёрная, A Bathing Ape</p>
+          <div class="foot"><span class="price">12 500 ₽</span><a class="buy" href="https://t.me/soquemarket" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2094" target="_blank" rel="noopener">mediawore/2094</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2108.jpg" alt="Анар в футболке BAPE и брюках Butter Goods"><span class="tag">22.12.2025</span></div>
+        <div class="body">
+          <span class="cat">Футболка</span>
+          <h3>BAPE</h3>
+          <p class="model">Футболка тай-дай голубая, A Bathing Ape</p>
+          <div class="foot"><span class="price">20 150 ₽</span><a class="buy" href="https://t.me/soquemarket" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2108" target="_blank" rel="noopener">mediawore/2108</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2108.jpg" alt="Анар в камуфляжных брюках Butter Goods"><span class="tag">22.12.2025</span></div>
+        <div class="body">
+          <span class="cat">Брюки</span>
+          <h3>Butter Goods</h3>
+          <p class="model">Weathergear Baggy Fit Denim Jeans, камуфляж</p>
+          <div class="foot"><span class="price">16 990 ₽</span><a class="buy" href="https://kixbox.ru/product/dzhinsy-baggy-fit-weathergear-denim-jeans" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2108" target="_blank" rel="noopener">mediawore/2108</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2365.jpg" alt="Анар в футболке Haliky"><span class="tag">20.07.2026</span></div>
+        <div class="body">
+          <span class="cat">Футболка</span>
+          <h3>Haliky «ЛС4»</h3>
+          <p class="model">Серая «варёная» футболка (Local Celeb Community)</p>
+          <div class="foot"><span class="price">4 990 ₽</span><a class="buy" href="https://haliky.com/lc4rawsteegray" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2365" target="_blank" rel="noopener">mediawore/2365</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2365.jpg" alt="Анар в джинсах Louis Vuitton"><span class="tag">20.07.2026</span></div>
+        <div class="body">
+          <span class="cat">Джинсы</span>
+          <h3>Tyler, the Creator × Louis Vuitton</h3>
+          <p class="model">Monogram Denim Jeans, голубые</p>
+          <div class="foot"><span class="price">216 100 ₽</span><a class="buy" href="https://savonches.com/products/louis-vuitton-tyler-the-creator-blue-monogram-denim-3" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2365" target="_blank" rel="noopener">mediawore/2365</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2365.jpg" alt="Анар с часами Rolex"><span class="tag">20.07.2026</span></div>
+        <div class="body">
+          <span class="cat">Часы</span>
+          <h3>Rolex Datejust 41</h3>
+          <p class="model">126300, инкрустация бриллиантами</p>
+          <div class="foot"><span class="price">1 750 000 ₽</span><a class="buy" href="https://www.viplombard.ru/catalog/watches/rolex/rolex-datejust-126300/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2365" target="_blank" rel="noopener">mediawore/2365</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2448.jpg" alt="Анар в куртке Casablanca"><span class="tag">05.09.2026</span></div>
+        <div class="body">
+          <span class="cat">Куртка</span>
+          <h3>Casablanca</h3>
+          <p class="model">Monogram Workwear Jacket (джинсовая, голубая)</p>
+          <div class="foot"><span class="price">108 000 ₽</span><a class="buy" href="https://www.tsum.ru/product/7071199-dzhinsovaya-kurtka-casablanca-goluboi-id104466686/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2448" target="_blank" rel="noopener">mediawore/2448</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2448.jpg" alt="Анар в джинсах Ksubi"><span class="tag">05.09.2026</span></div>
+        <div class="body">
+          <span class="cat">Джинсы</span>
+          <h3>Ksubi</h3>
+          <p class="model">Джинсы, голубые</p>
+          <div class="foot"><span class="price">41 750 ₽</span><a class="buy" href="https://www.tsum.ru/product/7066172-dzhinsy-ksubi-goluboi/" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2448" target="_blank" rel="noopener">mediawore/2448</a></span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="ph"><img src="img/tg_2448.jpg" alt="Анар в кроссовках Louis Vuitton Skate"><span class="tag">05.09.2026</span></div>
+        <div class="body">
+          <span class="cat">Кроссовки</span>
+          <h3>Swarovski × Louis Vuitton</h3>
+          <p class="model">Skate Sneaker «Blue Monogram» (кристальные)</p>
+          <div class="foot"><span class="price">345 490 ₽</span><a class="buy" href="https://unicorngo.ru/product/louis-vuitton-skate-4645084?sku=622520396" target="_blank" rel="noopener">Купить →</a></div>
+          <span class="src">Разбор: <a href="https://t.me/mediawore/2448" target="_blank" rel="noopener">mediawore/2448</a></span>
+        </div>
+      </article>
+    </div>
+    <div class="note"><b>Транспорт, который не одежда:</b> за тот же период Анар сжёг Audi RS5 и купил Lamborghini Huracán STO 2022 за 23 млн ₽, а также получил в подарок Mercedes-Benz G63 AMG (<a href="https://t.me/mediawore/2452" target="_blank" rel="noopener">mediawore/2452</a>, <a href="https://t.me/mediawore/2054" target="_blank" rel="noopener">mediawore/2054</a>).</div>
+  </div>
+</section>
+
+<!-- ======================= 05 ======================= -->
+<section id="video">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Все видео и стримы</h2></div>
+    <p class="sec-sub">Проанализированный материал: клипы OG Buda (2025–2026) и все совместные появления со стримами Анара.</p>
+    <ul class="brandlist" role="list">
+      <li><b>«Слёзы Аиши (First Day Out)» — клип</b><span>12.01.2025 • <a href="https://www.youtube.com/watch?v=XFSfUCDJz68" target="_blank" rel="noopener">YouTube</a> • бэктейдж: <a href="https://www.youtube.com/watch?v=qJd1MjXmTVo" target="_blank" rel="noopener">momiamtalented</a></span></li>
+      <li><b>«100% боль» — Wildways & OG Buda</b><span>июль 2025 • клип-коллаборация с рок-группой</span></li>
+      <li><b>«NaNaNa» — Aarne, Toxi$, OG Buda</b><span>24.12.2025 • с камео Анара • <a href="https://www.youtube.com/watch?v=S42RgdVyBRM" target="_blank" rel="noopener">YouTube</a></span></li>
+      <li><b>«Безысходность» — клип</b><span>2025 • <a href="https://youtu.be/Uju_RRfE-1A" target="_blank" rel="noopener">YouTube</a></span></li>
+      <li><b>Новогодние стримы (Дед Мороз и Снегурочка)</b><span>28–30.12.2025 • <a href="https://www.youtube.com/watch?v=NW95Yy_DMdQ" target="_blank" rel="noopener">YouTube</a> • <a href="https://vkvideo.ru/video-148482079_456256759" target="_blank" rel="noopener">VK Видео</a> • хоррор-квест с Кридом: <a href="https://vkvideo.ru/video-108384052_456239639" target="_blank" rel="noopener">VK</a></span></li>
+      <li><b>«OG Buda и Анар вспоминают Новый Год»</b><span>03.01.2026 • <a href="https://vkvideo.ru/video-191512516_456329172" target="_blank" rel="noopener">VK Видео</a></span></li>
+      <li><b>Концерт OG Buda в Краснодаре</b><span>январь 2026 • <a href="https://www.youtube.com/watch?v=eBxx_TnrmR4" target="_blank" rel="noopener">YouTube</a></span></li>
+      <li><b>Бангкок: «Приключения начинаются»</b><span>10.01.2026 • <a href="https://vkvideo.ru/video-174459280_456244341" target="_blank" rel="noopener">VK Видео</a> • полный стрим: <a href="https://www.youtube.com/watch?v=InVk_aiBjTY" target="_blank" rel="noopener">YouTube</a></span></li>
+      <li><b>Бангкок: «Первая ссора» и примирение</b><span>январь 2026 • <a href="https://vkvideo.ru/video-205853498_456244507" target="_blank" rel="noopener">VK</a> • <a href="https://vkvideo.ru/video-216055194_456344322" target="_blank" rel="noopener">VK</a></span></li>
+      <li><b>«Анар и Ганвест на виле у OG Buda»</b><span>16.01.2026 • <a href="https://vkvideo.ru/video-214095345_456242479" target="_blank" rel="noopener">VK Видео</a></span></li>
+    </ul>
+    <div class="note"><b>Контекст:</b> конфликт в Таиланде возник из-за манеры съёмки Анара (OG Buda сделал замечание прямо в эфире), но артисты быстро помирились и продолжили отдых вместе — <a href="https://taverna.gg/streaming/articles/strimer-anar-abdulaev-biografiya-vozrast-rost-devushka-i-drugie-detali/" target="_blank" rel="noopener">Taverna.gg</a>, <a href="https://cybersport.metaratings.ru/articles/strimer-anar-abdullaev-biografiya-karera-lichnaya-zhizn-populyarnost-dengi-i-drugie-detali/" target="_blank" rel="noopener">Metaratings</a>.</div>
+  </div>
+</section>
+
+<!-- ======================= FOOTER ======================= -->
+<footer id="istochniki">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <b>Методология</b><br>
+        Каталог составлен на основе публичных разборов образов: телеграм-канал mediawore (бывш. streamersoutfit) — все посты за 2025–2026 о OG Buda и Анаре, публикации The Flow, Taverna.gg, Metaratings, Дзен и профильные обзоры стиля. Цены зафиксированы на момент публикации разборов и могут отличаться от текущих. Скриншоты — кадры из клипов и постов с разборами. Это неофициальный фан-каталог, не связанный с артистами.
+      </div>
+      <div>
+        <b>Источники</b><br>
+        <a href="https://t.me/mediawore" target="_blank" rel="noopener">mediawore (Telegram)</a><br>
+        <a href="https://www.youtube.com/@mediawore" target="_blank" rel="noopener">mediawore (YouTube)</a><br>
+        <a href="https://the-flow.ru/videos/aarne-toxi-og-buda-nanana" target="_blank" rel="noopener">The Flow — NaNaNa</a><br>
+        <a href="https://chrome-heart.ru/news/ochki-chrome-hearts-v-tvorchestve-rossijskih-znamenitostej/" target="_blank" rel="noopener">chrome-heart.ru — очки Chrome Hearts</a><br>
+        <a href="https://dzen.ru/list/beauty/og-buda-stil-odezhdy" target="_blank" rel="noopener">Дзен — стиль OG Buda</a><br>
+        <a href="https://ru.wikipedia.org/wiki/OG_Buda" target="_blank" rel="noopener">Wikipedia — OG Buda</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="monetize.js"></script>
+</body>
+</html>
