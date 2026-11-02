@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fit-check-catalog.github.io/sitemap.xml
